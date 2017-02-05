@@ -2,6 +2,11 @@ body {
   font-size: 16px;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .board {
   display: flex;
   width: 600px;
@@ -28,4 +33,13 @@ body {
   box-sizing: border-box;
   border: 2px solid black;
   text-align: center;
+}
+
+.display {
+  font-size: 2em;
+}
+
+.new-game span {
+  border: 2px #000 solid;
+  padding: 5px;
 }
